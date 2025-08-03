@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "berry-much",
+  "version": "${version}",
+  "name": "Berry Much",
+  "description": "Makes berries more nutritious.",
+  "authors": ["mrerenk"],
+  "contact": {
+    "homepage": "https://github.com/MrErenK/BerryMuch",
+    "sources": "https://github.com/MrErenK/BerryMuch",
+    "issues": "https://github.com/MrErenK/BerryMuch/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.mrerenk.berrymuch.Berrymuch"]
+  },
+  "mixins": ["berrymuch.mixins.json"],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": ">=${min_fabric_version}",
+    "minecraft": ">=${min_minecraft_version}"
+  }
+}

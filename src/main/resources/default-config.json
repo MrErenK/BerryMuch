@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "itemId": "minecraft:sweet_berries",
+      "nutrition": 6,
+      "saturation": 1.2
+    },
+    {
+      "itemId": "minecraft:glow_berries",
+      "nutrition": 4,
+      "saturation": 0.8
+    },
+    {
+      "itemId": "minecraft:melon_slice",
+      "nutrition": 2,
+      "saturation": 2.4
+    }
+  ]
+}
